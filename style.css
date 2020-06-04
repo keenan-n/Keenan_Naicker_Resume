@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/*Body*/
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', 'sans-serif';
+    color: #222;
+}
+
+/*Navigation*/
+/*Nav-Logo Icon*/
+.fa-korvue {
+    font-size: 40px;
+    padding: 0;
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.4em !important;
+}
+
+/*Image Slider*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 15px #000000;
+    padding-bottom: 1rem;
+}
+/*About*/
+.myImage {
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    border-radius: 20%;
+    margin: 0 auto;
+}
+
+/*Button Primary*/
+.btn-primary {
+    background-color: #6648b1;
+    border: 1px solid #563d7c;
+}
+
+.btn-primary:hover {
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+}
+
+/*Jumbotron*/
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+/*Welcome Section*/
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+/*Short Horizontal Line*/
+.shortLine {
+    border-top: 2px solid #b4b4b4;
+    width: 75%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+/*Skills*/
+.fa-python,
+.fa-coffee,
+.fa-git,
+.fa-microsoft,
+.fa-github-square,
+.fa-html5,
+.fa-css3-alt,
+.fa-database,
+.fa-fighter-jet {
+    font-size: 4em;
+    margin: 1rem;
+}
+
+/*Something Fun*/
+.fun {
+    width: 100%;
+    border: none;
+    margin-bottom: 2rem;
+    background-image: url("images/static.jpg");
+}
+
+.fun:hover {
+    width: 100%;
+    border: none;
+    margin-bottom: 5rem;
+    background-image: url("images/static.jpg");
+}
+
+/*gif*/
+.gif {
+    max-width: 100%;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.fa-mobile-alt {
+    color: #333;
+}
+
+.fa-at {
+    color: #dd4b39;
+}
+
+.fa-linkedin-in {
+    color: #2867B2;
+}
+
+.fa-github-alt {
+    color: #333;
+}
+
+.fa-facebook-f {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color: #E1306C;
+}
+
+.fa-mobile-alt:hover,
+.fa-at:hover,
+.fa-linkedin-in:hover,
+.fa-github-alt:hover,
+.fa-facebook-f:hover,
+.fa-instagram:hover {
+    color: rebeccapurple;
+}
+
+/*Footer*/
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 45%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 350%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+
+    .display-4 {
+        font-size: 200%;
+    }
+
+    .myImage {
+        width: 270px;
+        height: 260px;
+        padding: 2rem;
+        border-radius: 20%;
+        margin: 0 auto;
+    }
+
+    .social a {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+
+}
+
+/*Back to top button.*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border: 2px solid rebeccapurple;;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: rebeccapurple;
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 40%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 110%;
+
+    }
+
+    .carousel-caption .btn {
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .display-4 {
+        font-size: 60%;
+    }
+
+    .myImage {
+        height: 200px;
+        width: 190px;
+        padding: 2rem;
+        border-radius: 20%;
+        margin: 0 auto;
+    }
+
+    .social a {
+        font-size: 2rem;
+        padding: .7rem;
+    }
+}
+
+
+/*Firefox Bug Fix*/
+.carousel-item {
+    transition: -webkit-transform 1s ease;
+    transition: transform 1s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+.carousel-item {
+    transition: transform 1s ease, -webkit-transform 0.5s ease;
+}
+
+/*Fixed Background Image*/
+figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0 !important;
+}
+
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Fixed Background*/
+#fixed {
+    background-image: url('images/static.jpg');
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
